@@ -19,18 +19,8 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.0"
   spec.summary      = "Simplest OTP View iOS"
   spec.description  = "OTP View with customisation and field validation, customisation using interface builder" 
-  spec.homepage     = "https://github.com/Somendra-yadav/KnobControl"
+  spec.homepage     = "https://github.com/Somendra-yadav/SYPinView"
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
-
-  spec.homepage     = "http://EXAMPLE/SYPinView"
-  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -71,7 +61,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Somendra-yadav/KnobControl.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Somendra-yadav/SYPinView.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
