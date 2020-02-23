@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B75E2A442402EC6A00C6D777 /* SYPinView.h in Headers */ = {isa = PBXBuildFile; fileRef = B75E2A422402EC6A00C6D777 /* SYPinView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B75E2A4C2402EC9600C6D777 /* PinTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E2A4A2402EC9600C6D777 /* PinTextField.swift */; };
+		B75E2A4D2402EC9600C6D777 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E2A4B2402EC9600C6D777 /* PinView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B75E2A3F2402EC6A00C6D777 /* SYPinView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYPinView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75E2A422402EC6A00C6D777 /* SYPinView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYPinView.h; sourceTree = "<group>"; };
 		B75E2A432402EC6A00C6D777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75E2A4A2402EC9600C6D777 /* PinTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinTextField.swift; sourceTree = "<group>"; };
+		B75E2A4B2402EC9600C6D777 /* PinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 		B75E2A412402EC6A00C6D777 /* SYPinView */ = {
 			isa = PBXGroup;
 			children = (
+				B75E2A4A2402EC9600C6D777 /* PinTextField.swift */,
+				B75E2A4B2402EC9600C6D777 /* PinView.swift */,
 				B75E2A422402EC6A00C6D777 /* SYPinView.h */,
 				B75E2A432402EC6A00C6D777 /* Info.plist */,
 			);
@@ -95,6 +101,7 @@
 				TargetAttributes = {
 					B75E2A3E2402EC6A00C6D777 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -131,6 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75E2A4D2402EC9600C6D777 /* PinView.swift in Sources */,
+				B75E2A4C2402EC9600C6D777 /* PinTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +269,7 @@
 		B75E2A482402EC6A00C6D777 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -275,6 +285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.Somedra-yadav.SYPinView";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -283,6 +294,7 @@
 		B75E2A492402EC6A00C6D777 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
